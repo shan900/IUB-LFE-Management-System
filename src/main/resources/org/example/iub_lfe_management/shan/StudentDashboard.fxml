@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" prefHeight="700" prefWidth="650" spacing="12" style="-fx-background-color: #f4f6f9;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.iub_lfe_management.shan.StudentDashboardController">
+
+    <padding>
+        <Insets bottom="25" left="35" right="35" top="25" />
+    </padding>
+
+    <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="IUB LFE Management System" />
+
+    <Label style="-fx-font-size: 19px; -fx-text-fill: #2563eb;" text="Student Dashboard" />
+
+    <Label style="-fx-font-size: 14px;" text="Welcome, Student!" />
+
+    <Button maxWidth="Infinity" onAction="#checkEligibility" prefHeight="42" text="Check LFE Eligibility" />
+
+    <Button maxWidth="Infinity" onAction="#registerLFE" prefHeight="42" text="Register for LFE 201" />
+
+    <Button maxWidth="Infinity" onAction="#viewRegistrationStatus" prefHeight="42" text=" View LFE Registration Status" />
+
+    <Button maxWidth="Infinity" onAction="#viewGroupInformation" prefHeight="42" text="View LFE Group/Section Information" />
+
+    <Button maxWidth="Infinity" onAction="#viewSchedule" prefHeight="42" text=" View LFE Schedule" />
+
+    <Button maxWidth="Infinity" onAction="#viewAttendance" prefHeight="42" text=" View LFE Attendance" />
+
+    <Button maxWidth="Infinity" onAction="#viewResult" prefHeight="42" text=" View LFE Result" />
+
+    <Button maxWidth="Infinity" onAction="#viewAnnouncements" prefHeight="42" text="View LFE Announcements" />
+
+    <Button onAction="#logout" prefHeight="38" prefWidth="150" style="-fx-background-color: #dc2626; -fx-text-fill: white;" text="Logout" />
+
+</VBox>

@@ -1,0 +1,6 @@
+
+studentId|name|department|totalCredits
+2023001|Rahim Ahmed|CSE|90
+2023002|Nusrat Jahan|BBA|24
+2023003|Sakib Hasan|EEE|36
+2023004|Ayesha Rahman|Architecture|60
